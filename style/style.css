@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(
+    to right, 
+    #4A7766 30%, 
+    #ece7e2 30%
+  );
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0; /* Adjust as needed */
+  position: absolute;
+  left: 11.11%;
+
+}
+
+.nav-link {
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: 300;
+  color: #ece7e2;
+  font-size: 20px;
+  margin-bottom: 10px; /* Adds spacing between the links */
+  text-decoration: none;
+  
+  
+}
+
+.nav-link:hover {
+  color: #80bba4; /* Change color on hover when mouse point to that link */
+}
+
+
+#name {
+  font-family: 'Century Gothic', sans-serif;
+  color: #ece7e2;
+  position: absolute;
+  left: 6%;
+  top: 27%;
+  /* font-family: Helvetica; */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#hello {
+  font-family: 'Century Gothic', sans-serif;
+  color: #4A7766;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  font-size: 50px;
+}
+
+#name_home {
+  font-family: 'Century Gothic', sans-serif;
+  color: #4A7766;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  font-size: 80px;
+}
+
+#welcome {
+  font-family: 'Century Gothic', sans-serif;
+  color: #4A7766;
+  position: absolute;
+  /* left: 52%; */
+  right: 16%;
+  top: 45%;
+  font-size: 50px;
+}
+
+.head{
+  color: #4A7766;
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  font-size: 50px;
+}

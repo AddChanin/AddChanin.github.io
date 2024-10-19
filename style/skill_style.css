@@ -1,0 +1,134 @@
+.head, .description, .bar, .languages, .skillbox, .desbox {
+  animation: transitionIn 0.75s;
+  font-family: 'Century Gothic', sans-serif;
+
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+/* Skill page styling */
+.description {
+  
+  color: #4A7766;
+  position: absolute;
+  left: 40%;
+  top: 22%;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+.program_lang {
+  color: #382c6e;
+  font-size: 25px;
+  margin-bottom: 30px; /* Adds spacing between the links */
+  text-decoration: none;
+}
+
+.skillbox {
+  height: 350px;
+  width: 800px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  clear: both;
+  position: absolute;
+  left: 37%;
+  top: 45%;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.desbox {
+  height: 180px;
+  width: 800px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  clear: both;
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  z-index: -1;
+  background-color: rgb(255, 255, 255);
+
+}
+
+/* .logobox {
+  position: absolute;
+  right: 45%;
+  margin-bottom: 15%;
+} */
+
+img {
+  z-index: 10; /* Bring images to the front */
+  position: absolute;
+}
+.java {
+  scale: 15%;
+  position: absolute;
+  right: 55%;
+  bottom: 0%;
+}
+
+.html {
+  scale: 15%;
+  position: absolute;
+  right: 42%;
+  bottom: 0%;
+
+}
+.css {
+  scale: 15%;
+  position: absolute;
+  right: 29%;
+  bottom: 0%;
+}
+.js {
+  scale: 15%;
+  position: absolute;
+  right: 16%;
+  bottom: 0%;
+}
+.c {
+  scale: 15%;
+  position: absolute;
+  right: 55%;
+  bottom: -30%;
+}
+.python {
+  scale: 15%;
+  position: absolute;
+  right: 42%;
+  bottom: -30%;
+}
+.react {
+  scale: 15%;
+  position: absolute;
+  right: 29%;
+  bottom: -30%;;
+}
+/* .racket {
+  scale: 10%;
+  position: absolute;
+  right: 35%;
+  top: 46%;
+} */
+

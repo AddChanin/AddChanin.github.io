@@ -1,0 +1,83 @@
+.head, .college, .college2, .box, .collegDegree,
+.collegDegree2, .year, .year2{
+  animation: transitionIn 0.75s;
+  font-family: 'Century Gothic', sans-serif;
+
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+/* Education page styling */
+.college {
+  color: #4A7766;
+  position: absolute;
+  left: 45%;
+  top: 33%;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.collegDegree {
+  color: #4A7766;
+  position: absolute;
+  left: 48%;
+  top: 38%;
+  font-size: 25px;
+}
+.year {
+  color: #4A7766;
+  position: absolute;
+  left: 50%;
+  top: 43%;
+  font-size: 18px;
+}
+
+
+.college2 {
+  color: #4A7766;
+  position: absolute;
+  left: 45%;
+  top: 58%;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.collegDegree2 {
+  color: #4A7766;
+  position: absolute;
+  left: 48%;
+  top: 63%;
+  font-size: 25px;
+}
+.year2 {
+  color: #4A7766;
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  font-size: 18px;
+}
+
+
+.box {
+  height: 475px;
+  width: 800px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  clear: both;
+  position: absolute;
+  left: 37%;
+  top: 25%;
+  z-index: -1;
+  background-color: rgb(255, 255, 255);
+
+}
